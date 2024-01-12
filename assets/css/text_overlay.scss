@@ -1,0 +1,18 @@
+---
+---
+@import "main";
+
+/* Container holding the image and the text */
+.container {
+    position: relative;
+    text-align: center;
+    color: rgb(65, 65, 187);
+  }
+  
+  /* Centered text */
+  .bottom-center {
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
