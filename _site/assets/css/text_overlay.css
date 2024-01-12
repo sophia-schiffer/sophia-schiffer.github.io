@@ -7,7 +7,7 @@
 .container {
   position: relative;
   text-align: center;
-  color: rgb(65, 65, 187);
+  color: white;
 }
 
 /* Centered text */
@@ -16,6 +16,7 @@
   top: 80%;
   left: 50%;
   transform: translate(-50%, -50%);
+  background-color: rgba(65, 65, 187, 0.5);
 }
 
 /*# sourceMappingURL=text_overlay.css.map */
