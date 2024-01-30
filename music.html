@@ -2,13 +2,21 @@
 layout: default
 title: Music
 ---
-<h1>Latest Posts</h1>
 
-<ul>
-  {% for post in site.music.posts %}
-    <li>
-      <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
-      {{ post.excerpt }}
-    </li>
-  {% endfor %}
-</ul>
+{% for tag in site.tags %}
+  {% if tag[0] == "music" %}
+    <h1>Latest Posts</h1>
+    <ul>
+      {% for post in tag[1] %}
+        <li><a href="{{ post.url }}">{{ post.title }}</a></li>
+      {% endfor %}
+    </ul>
+  {% endif %}
+{% endfor %}
+
+<!-- <h1>Latest Posts</h1>
+  <ul>
+    {% for post in site.tags.music[1] %}
+      <li><a href="{{ post.url }}">{{ post.title }}</a></li>
+    {% endfor %}
+  </ul> -->
