@@ -2,7 +2,9 @@
   link: /
 - name: About
   link: /about.html
-- name: Music
-  link: /music.html
-- name: Staff
-  link: /staff.html
+- name: Podcast
+  link: /podcast.html
+# - name: Music
+#   link: /music.html
+# - name: Staff
+#   link: /staff.html
