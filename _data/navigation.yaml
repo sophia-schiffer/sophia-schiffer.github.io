@@ -4,6 +4,8 @@
   link: /about.html
 - name: Podcast
   link: /podcast.html
+- name: Contact
+  link: /contact.html
 # - name: Music
 #   link: /music.html
 # - name: Staff
