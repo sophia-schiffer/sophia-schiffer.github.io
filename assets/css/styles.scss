@@ -13,3 +13,22 @@ img {
     margin-right: auto;
     width: 30%;
   }
+
+.imageBox {
+    max-width: 100%;
+    height: auto;
+}
+
+.imageBox .hoverImg {
+    max-width: 100%;
+    height: auto;
+    display: none;
+}
+
+.imageBox:hover .hoverImg {
+    display: block;
+}
+
+.imageBox:hover .hoverImg {
+    display: block;
+}
