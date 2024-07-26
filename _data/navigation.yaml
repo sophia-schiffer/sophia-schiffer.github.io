@@ -1,10 +1,10 @@
-- name: Home
+- name: Home - Sophia Schiffer
   link: /
-- name: About
+- name: About - Sophia Schiffer
   link: /about.html
-- name: Podcast
+- name: Podcast - Sophia Schiffer
   link: /podcast.html
-- name: Contact
+- name: Contact - Sophia Schiffer
   link: /contact.html
 # - name: Music
 #   link: /music.html
