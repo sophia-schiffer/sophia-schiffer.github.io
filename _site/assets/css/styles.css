@@ -30,10 +30,6 @@ img {
   display: block;
 }
 
-.imageBox:hover .hoverImg {
-  display: block;
-}
-
 .background {
   position: relative;
 }
@@ -47,6 +43,24 @@ img {
   margin-left: auto;
   margin-right: auto;
   width: 20%;
+}
+
+.img_text {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(201, 185, 201, 0.72);
+  color: rgb(77, 71, 77);
+  visibility: hidden;
+  opacity: 0;
+  text-align: center;
+}
+
+.overlay:hover .img_text {
+  visibility: visible;
+  opacity: 1;
 }
 
 /*# sourceMappingURL=styles.css.map */
