@@ -32,3 +32,18 @@ img {
 .imageBox:hover .hoverImg {
     display: block;
 }
+
+.background {
+    position: relative;
+}
+
+.overlay {
+    position: absolute;
+    top: 50px;
+    left: 0;
+    right: 0;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 20%;
+}
