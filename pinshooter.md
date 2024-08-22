@@ -14,3 +14,12 @@ In this project, the Franka arm searches for known randomly placed pins and shoo
 {% include youtubeplay.html id=page.youtubeId %}
 
 
+This project uses Robot Operating System 2 (ROS2) to interface between our Python code and the Franka Emika Panda robot.
+
+My primary role was ensuring robust and repeatable pick and place operations for the arm. I developed the code for our
+robot to pick up the proper gun and replace it on the correct gun mount with enough precision that the gun can be
+picked up again as many times as necessary to shoot down all desired pins. To achieve this, I used MoveIt and AprilTag
+ROS, which are "packages" of code that allow robots to move to desired coordinates and track positions using QR codes,
+respectively. 
+
+
