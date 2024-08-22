@@ -1,8 +1,9 @@
 ---
 layout: default
 title: Engineering - Sophia Schiffer
-image: /assets/images/bubbles.jpg
-image2: /assets/images/pigeon.png
+background_image: /assets/images/bubbles.jpg
+top_center: /assets/images/pigeon.png
+bottom_center: /assets/images/paper_teri.png
 ---
 
 <h1 style="color:fuchsia; text-align: center;">Welcome to my Engineering Page!</h1>
@@ -13,15 +14,28 @@ image2: /assets/images/pigeon.png
 </p>
 
 <div class="background">
-    <img src="{{ page.image | relative_url }}" alt="background.jpg" style="max-width:100%; box-shadow: white inset 0 0 500px 500px;">
+    <img src="{{ page.background_image | relative_url }}" alt="background.jpg" style="max-width:100%; box-shadow: white inset 0 0 500px 500px;">
     <div class="overlay">
-        <img src="{{ page.image2 | relative_url }}" alt="pigeon.jpg">
+        <img src="{{ page.top_center | relative_url }}" alt="pigeon.png">
         <a href="https://github.com/sophia-schiffer/daylogger">
             <div class="img_text">
                 <p style="font-family: 'Trebuchet MS', serif; font-size: 3vw;">Daylogger</p>
                 <br>
                 <p style="font-family: 'Trebuchet MS', serif; font-size: 1.5vw;">A merry Chicago pigeon going about
                     his day.
+                </p>
+            </div>
+        </a>
+    </div>
+
+    <div class="overlay_center">
+        <img src="{{ page.bottom_center | relative_url }}" alt="paper_teri.png">
+        <a href="https://arxiv.org/pdf/2310.00498">
+            <div class="img_text">
+                <p style="font-family: 'Trebuchet MS', serif; font-size: 3vw;">Soft Robotics Research</p>
+                <br>
+                <p style="font-family: 'Trebuchet MS', serif; font-size: 1.5vw;">My second author publication from
+                    research conducted while at Northwestern University under professor Todd D. Murphey.
                 </p>
             </div>
         </a>
