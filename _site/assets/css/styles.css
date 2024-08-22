@@ -76,4 +76,9 @@ img {
   opacity: 1;
 }
 
+.overlay_center:hover .img_text {
+  visibility: visible;
+  opacity: 1;
+}
+
 /*# sourceMappingURL=styles.css.map */
