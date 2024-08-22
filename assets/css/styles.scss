@@ -2,6 +2,10 @@
 ---
 @import "main";
 
+:root {
+    --separator_margin: 10%;
+  }  
+
 img {
     max-width: 100%;
     height: auto;
@@ -35,7 +39,7 @@ img {
 
 .overlay {
     position: absolute;
-    top: 15%;
+    top: var(--separator_margin);
     left: 0;
     right: 0;
     display: block;
@@ -47,7 +51,7 @@ img {
 
 .overlay_center {
     position: absolute;
-    bottom: 15%;
+    bottom: var(--separator_margin);
     left: 0;
     right: 0;
     display: block;
