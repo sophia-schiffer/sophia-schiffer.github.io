@@ -35,6 +35,18 @@ img {
 
 .overlay {
     position: absolute;
+    top: 15%;
+    left: 0;
+    right: 0;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 20%;
+    box-shadow: purple 8px 5px 10px 10px; 
+}
+
+.overlay_center {
+    position: absolute;
     top: 50px;
     left: 0;
     right: 0;
