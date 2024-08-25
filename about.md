@@ -1,6 +1,6 @@
 ---
 title: About - Sophia Schiffer
-image: /assets/images/about_portrait_cropped2.png
+image: /assets/images/about_me.png
 ---
 # About Me
 
@@ -22,4 +22,4 @@ in their daily lives. I am currently involved in a year-long “gap” project c
     help you, whoever you may be, gain a holistic perspective of me, maybe provide some 
     entertainment, and serve as a hub for sharing my fun spread of all that makes me who I am.
 
-<img src="{{ page.image | relative_url }}" alt="about_portrait" class="center">
+<img src="{{ page.image | relative_url }}" alt="about_me.png" class="center">
