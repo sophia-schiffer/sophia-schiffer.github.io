@@ -59,50 +59,44 @@ body {
   position: relative;
 }
 
-.overlay {
+.overlay, .overlay_center, .overlay_TL, .overlay_TR {
   position: absolute;
-  top: var(--separator_margin);
-  left: 0;
-  right: 0;
   display: block;
   margin-left: auto;
   margin-right: auto;
   width: 20%;
+}
+
+.overlay {
+  top: var(--separator_margin);
+  left: 0;
+  right: 0;
   box-shadow: purple 8px 5px 10px 10px;
 }
 
 .overlay_center {
-  position: absolute;
   bottom: var(--separator_margin);
   left: 0;
   right: 0;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 20%;
   box-shadow: green 8px 5px 10px 10px;
 }
 
 .overlay_TL {
-  position: absolute;
   top: var(--separator_margin);
   left: var(--separator_margin);
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 20%;
   box-shadow: yellow 8px 5px 10px 10px;
 }
 
 .overlay_TR {
-  position: absolute;
   top: var(--separator_margin);
   right: var(--separator_margin);
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 20%;
   box-shadow: orangered 8px 5px 10px 10px;
+}
+
+.overlay_BL {
+  bottom: var(--separator_margin);
+  left: var(var(--separator_margin));
+  box-shadow: rgb(213, 156, 235) 8px 5px 10px 10px;
 }
 
 .img_text {
@@ -118,22 +112,8 @@ body {
   text-align: center;
 }
 
-.overlay:hover .img_text {
-  visibility: visible;
-  opacity: 1;
-}
-
-.overlay_center:hover .img_text {
-  visibility: visible;
-  opacity: 1;
-}
-
-.overlay_TL:hover .img_text {
-  visibility: visible;
-  opacity: 1;
-}
-
-.overlay_TR:hover .img_text {
+.overlay:hover .img_text, .overlay_center:hover .img_text,
+.overlay_TL:hover .img_text, .overlay_TR:hover .img_text {
   visibility: visible;
   opacity: 1;
 }
