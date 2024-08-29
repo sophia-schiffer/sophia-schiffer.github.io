@@ -34,6 +34,8 @@ body {
 
 .center {
   display: block;
+  left: 0;
+  right: 0;
   margin-left: auto;
   margin-right: auto;
   width: 30%;
@@ -41,17 +43,21 @@ body {
 
 .imageBox {
   position: relative;
-  top: 0;
 }
 
 .imageBox .hoverImg {
-  position: absolute;
   top: 0;
-  display: none;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  position: absolute;
+  visibility: hidden;
+  opacity: 0;
 }
 
 .imageBox:hover .hoverImg {
-  display: block;
+  visibility: visible;
+  opacity: 1;
 }
 
 .background {
