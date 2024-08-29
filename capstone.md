@@ -1,3 +1,3 @@
 ---
-title: Sophia Schiffer - Capstone
+title: Capstone - Sophia Schiffer
 ---
