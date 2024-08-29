@@ -9,6 +9,7 @@
 img {
     max-width: 100%;
     height: auto;
+    display: block;
 }
 
 h1 {
@@ -91,6 +92,17 @@ body {
     box-shadow: yellow 8px 5px 10px 10px; 
 }
 
+.overlay_TR {
+    position: absolute;
+    top: var(--separator_margin);
+    right: var(--separator_margin);
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 20%;
+    box-shadow: orangered 8px 5px 10px 10px;
+}
+
 .img_text {
     position: absolute;
     top: 0;
@@ -114,6 +126,11 @@ body {
     opacity: 1;
 }
 .overlay_TL:hover .img_text {
+    visibility: visible;
+    opacity: 1;
+}
+
+.overlay_TR:hover .img_text {
     visibility: visible;
     opacity: 1;
 }
