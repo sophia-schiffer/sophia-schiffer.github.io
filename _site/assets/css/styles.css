@@ -59,7 +59,7 @@ body {
   position: relative;
 }
 
-.overlay, .overlay_center, .overlay_TL, .overlay_TR, .overlay_BL {
+.overlay, .overlay_center, .overlay_TL, .overlay_TR, .overlay_BL, .overlay_BR {
   position: absolute;
   display: block;
   margin-left: auto;
@@ -99,6 +99,12 @@ body {
   box-shadow: rgb(213, 156, 235) 8px 5px 10px 10px;
 }
 
+.overlay_BR {
+  bottom: var(--separator_margin);
+  right: var(--separator_margin);
+  box-shadow: turquoise 8px 5px 10px 10px;
+}
+
 .img_text {
   position: absolute;
   top: 0;
@@ -120,7 +126,7 @@ body {
 
 .overlay:hover .img_text, .overlay_center:hover .img_text,
 .overlay_TL:hover .img_text, .overlay_TR:hover .img_text,
-.overlay_BL:hover .img_text {
+.overlay_BL:hover .img_text, .overlay_BR:hover .img_text {
   visibility: visible;
   opacity: 1;
 }
