@@ -112,6 +112,12 @@ body {
   text-align: center;
 }
 
+.img_description {
+  margin-left: 1vw;
+  margin-right: 1vw;
+  font-family: "Trebuchet MS", serif;
+}
+
 .overlay:hover .img_text, .overlay_center:hover .img_text,
 .overlay_TL:hover .img_text, .overlay_TR:hover .img_text,
 .overlay_BL:hover .img_text {
