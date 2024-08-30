@@ -9,11 +9,22 @@
     color: white;
   }
   
-  /* Centered text */
-  .bottom-center {
-    position: absolute;
-    top: 55%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    background-color: rgba(65, 65, 187,.5);;
-  }
+/* Centered text */
+.bottom-center {
+  position: absolute;
+  bottom: 0;
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
+  width: 80%;
+  background-color: rgba(65, 65, 187,.5);;
+}
+
+.top-center {
+  position: absolute;
+  top: 55%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: rgba(65, 65, 187,.5);;
+}
