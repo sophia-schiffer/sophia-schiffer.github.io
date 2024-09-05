@@ -132,7 +132,8 @@ body {
 }
 
 .button {
-  font-family: "Trebuchet MS", serif;
+  font-family: "Nerko One", cursive;
+  text-transform: uppercase;
   font-size: 36px;
   text-align: center;
   display: block;
@@ -141,6 +142,7 @@ body {
   left: 0;
   right: 0;
   width: 30%;
+  color: indigo;
 }
 
 .navigation {
@@ -150,6 +152,7 @@ body {
   text-transform: uppercase;
   font-size: 2vw;
   word-spacing: 1vw;
+  color: indigo;
 }
 
 .nerko-one-regular {
