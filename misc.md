@@ -17,3 +17,9 @@ one, my tragedy will come to an end and I shall live happily ever after!
   <img src="{{ page.img1 | relative_url }}" width="45%" />
   <img src="{{ page.img2 | relative_url }}" width="45%" />
 </div>
+
+Live order count:
+
+<button type="button" class="counter">
+  3/30
+</button>
