@@ -21,5 +21,5 @@ one, my tragedy will come to an end and I shall live happily ever after!
 Live order count:
 
 <button type="button" class="counter">
-  9/30
+  10/30
 </button>
