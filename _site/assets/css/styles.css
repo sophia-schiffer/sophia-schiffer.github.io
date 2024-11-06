@@ -8,7 +8,6 @@
 }
 
 img {
-  max-width: 100%;
   height: auto;
   display: block;
 }
@@ -48,7 +47,7 @@ body {
   right: 0;
   margin-left: auto;
   margin-right: auto;
-  width: 30%;
+  width: 50%;
 }
 
 .imageBox:hover {
