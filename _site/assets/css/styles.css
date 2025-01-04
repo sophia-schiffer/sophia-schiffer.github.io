@@ -165,8 +165,17 @@ body {
   font-style: normal;
   text-transform: uppercase;
   font-size: 2vw;
-  word-spacing: 1vw;
   color: indigo;
+  gap: 2vw;
+  display: flex;
+  justify-content: center; /* Centers links horizontally within the container */
+  align-items: center; /* Centers links vertically if the container has height */
+}
+
+.navigation a {
+  word-spacing: -0.1em; /* Affects spacing within each navigation item's text */
+  text-decoration: none; /* Removes underline from links */
+  color: inherit; /* Ensures links use the same color as `.navigation` */
 }
 
 .nerko-one-regular {
