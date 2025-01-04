@@ -131,18 +131,32 @@ body {
   opacity: 1;
 }
 
+.button-container {
+  display: flex;
+  justify-content: center; /* Centers the buttons horizontally */
+  align-items: center; /* Centers the buttons vertically (important for single buttons) */
+  gap: 20px; /* Adds space between buttons */
+  width: 100%;
+  margin: 0 auto; /* Centers the container in its parent */
+}
+
 .button {
   font-family: "Nerko One", cursive;
   text-transform: uppercase;
   font-size: 36px;
-  text-align: center;
-  display: block;
-  margin: -1.5% auto;
-  position: absolute;
-  left: 0;
-  right: 0;
-  width: 30%;
   color: indigo;
+  padding: 10px 40px; /* Adds padding for more space inside the button */
+  border: 2px solid indigo; /* Optional: border to define the button outline */
+  border-radius: 5px;
+  cursor: pointer;
+  background-color: transparent;
+  text-align: center;
+  transition: background-color 0.3s ease;
+  min-width: 180px; /* Ensures the button has a minimum width */
+}
+
+.button:hover {
+  background-color: #f0f0f0; /* Optional: hover effect */
 }
 
 .counter {
@@ -176,6 +190,10 @@ body {
   word-spacing: -0.1em; /* Affects spacing within each navigation item's text */
   text-decoration: none; /* Removes underline from links */
   color: inherit; /* Ensures links use the same color as `.navigation` */
+}
+
+body.no-nav nav {
+  display: none;
 }
 
 .nerko-one-regular {
