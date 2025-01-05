@@ -1,5 +1,5 @@
 ---
-title: About - Sophia Schiffer
+title: Cat News - Sophia Schiffer
 image1: /assets/images/MiddyTime/middy1.png
 image2: /assets/images/MiddyTime/middy2.png
 ---
