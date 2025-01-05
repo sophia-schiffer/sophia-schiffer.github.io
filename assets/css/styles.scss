@@ -192,12 +192,23 @@ body {
     color: inherit; /* Ensures links use the same color as `.navigation` */
 }
 
-.banner {
-    height: 5vw;         /* Sets the height relative to the viewport width */
-    display: flex;       /* Flexbox for layout */
-    position: relative;  /* Allows `top` to work */
-    top: 2vw;            /* Positions the banner 2vw from the top */
-    z-index: -1;         /* Places the banner behind other elements */
+.navbar {
+    display: flex;
+    justify-content: flex-start; /* Align logo and navigation to the left */
+    align-items: center;         /* Vertically align items */
+    padding: 0 1rem;             /* Adjust as needed */
+    background-color: #f8f9fa;   /* Optional background */
+    gap: 1rem;                   /* Add space between logo and navigation */
+}
+
+.logo {
+    margin-right: 7rem;          /* Adjusts space between the logo and nav links */
+}
+
+.logo .banner {
+    height: 2vw;                  /* Adjust based on your design */
+    max-height: 50px;             /* Prevent banner from becoming too large */
+    width: auto;                  /* Maintain aspect ratio */
 }
 
 body.no-nav nav {

@@ -2,17 +2,15 @@
     @import url('https://fonts.googleapis.com/css2?family=Nerko+One&display=swap');
 </style>
 
-<nav>
-
-    <a href="/">
-        <img class="banner" src="/assets/images/banner.png">
+<nav class="navbar">
+    <a href="/" class="logo">
+        <img class="banner" src="/assets/images/banner.png" alt="Site Banner">
     </a>
-
-    <center class="navigation">
-    {% for item in site.data.navigation %}
-        <a href="{{ item.link }}" {% if page.url == item.link %}class="current"{% endif %}>
-            {{ item.name }}
-        </a>
-    {% endfor %}
-    </center>
+    <div class="navigation">
+        {% for item in site.data.navigation %}
+            <a href="{{ item.link }}" {% if page.url == item.link %}class="current"{% endif %}>
+                {{ item.name }}
+            </a>
+        {% endfor %}
+    </div>
 </nav>
