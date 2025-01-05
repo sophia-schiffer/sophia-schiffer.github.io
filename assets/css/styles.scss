@@ -192,6 +192,14 @@ body {
     color: inherit; /* Ensures links use the same color as `.navigation` */
 }
 
+.banner {
+    height: 5vw;         /* Sets the height relative to the viewport width */
+    display: flex;       /* Flexbox for layout */
+    position: relative;  /* Allows `top` to work */
+    top: 2vw;            /* Positions the banner 2vw from the top */
+    z-index: -1;         /* Places the banner behind other elements */
+}
+
 body.no-nav nav {
     display: none;
 }
